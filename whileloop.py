@@ -40,7 +40,7 @@
 #         print('the end!')
 # print(pyramid)
 
-        # OR
+        # OR: :(
 counts = ''
 for n in range(1,12):
     counts += '*'
