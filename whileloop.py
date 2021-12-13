@@ -41,7 +41,7 @@
 # print(pyramid)
 
         # OR
-# counts = ''
-# for n in range(1,12):
-#     counts += '*'
-#     print(counts)
+counts = ''
+for n in range(1,12):
+    counts += '*'
+    print(counts)

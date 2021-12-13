@@ -56,4 +56,4 @@ for num in range(1,21):
         status = 'even'
     else:
         status = 'odd'
-    print(f'{num} is {status}')
+    print(f'{num} is {status}. Thanks!')
