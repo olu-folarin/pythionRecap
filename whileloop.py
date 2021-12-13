@@ -41,7 +41,24 @@
 # print(pyramid)
 
         # OR: :(
-counts = ''
-for n in range(1,12):
-    counts += '*'
-    print(counts)
+# counts = ''
+# for n in range(1,12):
+#     counts += '*'
+#     print(counts)
+
+
+# Exercise 2: Stop Copying Me
+        # print what is inputed and only stop when when 'stop copying me gets printed'
+# converse = input('Pls, what\'s the answer to question 1? ')
+
+# while converse:
+#         if converse != 'stop copying me':
+#                 print(converse)
+#                 converse = input('Pls, what\'s the answer to question 1? ')
+#         else:
+#                 print('Fine!')
+
+                # OR
+# while converse != "stop copying me":
+#         converse = input('Pls, what\'s the answer to question 1? ')
+# print('Fine, I\'ll stop.')
