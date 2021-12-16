@@ -30,7 +30,7 @@
 
 
 # METHODS
-car_names = ['tesla', 'toyota', 'cardilac', 'ford', 'rivian']
+# car_names = ['tesla', 'toyota', 'cardilac', 'ford', 'rivian']
 
 # .append() only takes one argument (int, str, list)
 # car_names.append(['poleone', 'hyundai'])
@@ -39,4 +39,10 @@ car_names = ['tesla', 'toyota', 'cardilac', 'ford', 'rivian']
 # car_names.extend(['jaguar'])
 
 # car_names.insert(1, 'porsche')
-print(car_names)
+# print(car_names)
+
+
+# Exercise 2: add items to an empty list
+instructors = []
+instructors.extend(['colt', 'blue', 'traversy', 'andrei'])
+print(instructors)
