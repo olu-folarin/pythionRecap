@@ -8,7 +8,7 @@
 #     else:
 #         print('Goodbye!')
 #         break
-    
+
 # print(stored_items)
 
 # food = ['rice', 'beans', 'garri', 'spaghetti', 'plantain']
@@ -20,14 +20,13 @@
 
 
 # Exercise 1
-    # combine all the items in a list to form a long, meaningless string saved to a variable
+# combine all the items in a list to form a long, meaningless string saved to a variable
 # jombo = ['melon', 'cat', 'yeast', 'thyroid', 'wiki', 'nasa', 'lassa']
 # mombo = ''
 
 # for word in jombo:
 #     mombo += word.upper()
 # print(mombo)
-
 
 
 # METHODS
