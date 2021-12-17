@@ -86,5 +86,8 @@ fruits = ['papaya', 'lemon', 'apple', 'orange', 'lemon','melon', 'peer']
 # print(slice_two)
 # backwards_by2 = fruits[::-2]
 # flipped_numberline = fruits[5:3:-1]
-sliced_string = fruits[3][::-1]
-print(sliced_string)
+# sliced_string = fruits[3][::-1]
+
+# copied_list = fruits.copy()
+copied_list2 = fruits[::-1].copy()
+print(copied_list2)
