@@ -43,6 +43,48 @@
 
 
 # Exercise 2: add items to an empty list
-instructors = []
-instructors.extend(['colt', 'blue', 'traversy', 'andrei'])
-print(instructors)
+# instructors = []
+# instructors.extend(['colt', 'blue', 'traversy', 'andrei'])
+# print(instructors)
+
+
+# Methods: clear, remove and pop
+fruits = ['papaya', 'lemon', 'apple', 'orange', 'lemon','melon', 'peer']
+
+# check_fruit = input('See if this fruit is in the database: ').lower()
+
+
+#   This still needs to be worked on
+# for fruit in fruits:
+#     if check_fruit:
+#         if check_fruit == fruit:
+#             print(f'We have {check_fruit}')
+#             break
+#         else:
+#             print(f'We don\'t have {check_fruit}, but we have {fruit}')
+#     else:
+#         print('You entered nothing!')
+
+# fruit = fruits.pop(-1)
+# fruits.clear()
+# fruits.remove('lemon')
+# print(fruits)
+
+
+# Methods: reverse, sort, index, count
+# fruits.reverse()
+# fruit_count = fruits.count('lemon')
+# indexed_fruit = fruits.index('peer', 3, 7)
+# new_fruits = ' '.join(fruits)
+# print(new_fruits)
+
+
+# slice: doesn't require a dot-separated value unlike other methods
+    # when a negative counter is used, the number line gets flipped.
+
+# slice_two = fruits[::2]
+# print(slice_two)
+# backwards_by2 = fruits[::-2]
+# flipped_numberline = fruits[5:3:-1]
+sliced_string = fruits[3][::-1]
+print(sliced_string)
