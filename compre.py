@@ -22,5 +22,22 @@ nums = [1,4,6,7,3,8]
 
 # list comp with double logical statements
 # odd = [num+num if num % 2 != 0 else 0 for num in nums]
-even = [num * 10 if num % 2 == 0 else 'odd' for num in nums]
-print(even)
+# even = [num * 10 if num % 2 == 0 else 'odd' for num in nums]
+
+# even_above_five = [num * 3 if num % 2 == 0 and num > 4 else print(f'{num} is neither even nor greater than 4') for num in nums]
+# print(nums)
+
+# words = ['yes', 'lame', 'carton']
+# is_vowels = [char[0] for char in words]
+
+# Exercises
+# names = ['May', 'Jared', 'Morounfolu']
+# answer = [name[0] for name in names]
+
+# numbs = [1,2,3,4,5,6]
+# answer2 = [num for num in numbs if num % 2 == 0]
+
+# names = ['Wale', 'Dale', 'Keye', 'Leke']
+# reversed_names = [name[-1::-1].lower() for name in names]
+divisible_by_2 = [num for num in range(1,101) if num % 2 != 1]
+print(divisible_by_2)
