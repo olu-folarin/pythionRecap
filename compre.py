@@ -39,5 +39,7 @@ nums = [1,4,6,7,3,8]
 
 # names = ['Wale', 'Dale', 'Keye', 'Leke']
 # reversed_names = [name[-1::-1].lower() for name in names]
-divisible_by_2 = [num for num in range(1,101) if num % 2 != 1]
-print(divisible_by_2)
+# divisible_by_2 = [num for num in range(1,101) if num % 2 != 1]
+
+answer = [letter for letter in 'amazing' if letter not in 'aeiou']
+print(answer)
