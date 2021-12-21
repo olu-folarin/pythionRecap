@@ -1,8 +1,8 @@
 # intro to list comprehension
 # the idea behind this is to do carry out an operation on a part or all of a list then add it to the list
 
-cars = ['volvo', 'peugeot', 'aston martin', 'range rover']
-nums = [1,4,6,7,3,8]
+# cars = ['volvo', 'peugeot', 'aston martin', 'range rover']
+# nums = [1,4,6,7,3,8]
 # below is what it looks like
 # new_cars = [car[0].upper() + car[1:] for car in cars]
 # added_num = [num + num for num in nums]
@@ -41,5 +41,18 @@ nums = [1,4,6,7,3,8]
 # reversed_names = [name[-1::-1].lower() for name in names]
 # divisible_by_2 = [num for num in range(1,101) if num % 2 != 1]
 
-answer = [letter for letter in 'amazing' if letter not in 'aeiou']
-print(answer)
+# answer = [letter for letter in 'amazing' if letter not in 'aeiou']
+
+
+# Nested List
+# house_numbers = [[1,2,3,4], [5,6,7,8], [9,10,11,12]]
+
+# nums = ['*' for num in range(1,5)]
+# for val in house_numbers:
+#     for num in val:
+#         print(num)
+
+# Exercise 2
+# answer = [[i for i in range(1,4)] for j in range(1,4)]
+matrix = [[i for i in range(10)] for j in range(10)]
+print(matrix)
