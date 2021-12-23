@@ -6,4 +6,4 @@ friends = [
     {'name': 'Sesede', 'age': 25, 'gender': 'female', 'occupation': 'Fashion Designer', 'location': 'NGR'}
     ]
 
-print(friends[3]['gender'])
+print(friends[3]['occupation'])
