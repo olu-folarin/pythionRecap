@@ -24,7 +24,7 @@ from random import choice
 #     print(key,val)
 
 # Exercise 1: add donations to total_donations
-donations = dict(sam=25.0, lena=88.99, chuck=13.0, linus=99.5, stan=150.0, lisa=50.25, harrison=10.0)
+# donations = dict(sam=25.0, lena=88.99, chuck=13.0, linus=99.5, stan=150.0, lisa=50.25, harrison=10.0)
 
 # total_donations = 0
 # for v in donations.values():
@@ -47,15 +47,15 @@ donations = dict(sam=25.0, lena=88.99, chuck=13.0, linus=99.5, stan=150.0, lisa=
 # Exercise 2
     # if food is an item in bakery_stock, print out a string showing how much of it is left, if not, print 'We don't that!'
 
-food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"])
+# food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"])
 
-bakery_stock = {
-    "almond croissant" : 12,
-    "toffee cookie": 3,
-    "morning bun": 1,
-    "chocolate chunk cookie": 9,
-    "tea cake": 25
-}
+# bakery_stock = {
+#     "almond croissant" : 12,
+#     "toffee cookie": 3,
+#     "morning bun": 1,
+#     "chocolate chunk cookie": 9,
+#     "tea cake": 25
+# }
 
 
 # if food in bakery_stock:
@@ -67,6 +67,35 @@ bakery_stock = {
 
 
 # # pop, popitems and update
-new_bakery_stock = bakery_stock.copy()
-new_bakery_stock.pop('morning bun')
-print(new_bakery_stock)
+# new_bakery_stock = bakery_stock.copy()
+# new_bakery_stock.pop('morning bun')
+# new_bakery_stock.popitem()
+
+# food2 = {'yam': 6, 'melon': 7}
+# food2.update(new_bakery_stock)
+# food2['cookie'] = 5
+# food2.pop('toffee cookie')
+# print(food2)
+
+
+# # Data Modeling Exercise: spotify playlist modeling
+    # create a list of objects.
+    # each list has an author, featured artiste, title, release date and track duration.
+    # playlist must be in order
+
+spotify_playlist = {
+    'artiste': 'Mo\'hits',
+    'album': 'Mo\'hits All Stars',
+    'Year': 2009,
+    'songs': [
+        {'title': 'You bad', 'artiste': ['Wande Coal', 'D\'Banj'], 'duration': 3.5},
+        {'title': 'Suddenly', 'artiste': ['Wande Coal', 'D\'Banj'], 'duration': 4.7},
+        {'title': 'ten ten', 'artiste': ['Wande Coal', 'D\'Banj', 'DrSid', 'Dprince'], 'duration': 4.07}
+    ]
+}
+
+total_duration = 0
+for song in spotify_playlist['songs']:
+    total_duration += song['duration']
+    
+print(total_duration)
