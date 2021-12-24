@@ -58,9 +58,15 @@ bakery_stock = {
 }
 
 
-if food in bakery_stock:
-    for v in bakery_stock.values():
-        print(f'Only {v} {food} is left.')
-        break
-else:
-    print(f'{food} : We don\'t make that!')
+# if food in bakery_stock:
+#     for v in bakery_stock.values():
+#         print(f'Only {v} {food} is left.')
+#         break
+# else:
+#     print(f'{food} : We don\'t make that!')
+
+
+# # pop, popitems and update
+new_bakery_stock = bakery_stock.copy()
+new_bakery_stock.pop('morning bun')
+print(new_bakery_stock)
