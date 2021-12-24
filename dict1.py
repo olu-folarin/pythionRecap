@@ -83,19 +83,39 @@ from random import choice
     # each list has an author, featured artiste, title, release date and track duration.
     # playlist must be in order
 
-spotify_playlist = {
-    'artiste': 'Mo\'hits',
-    'album': 'Mo\'hits All Stars',
-    'Year': 2009,
-    'songs': [
-        {'title': 'You bad', 'artiste': ['Wande Coal', 'D\'Banj'], 'duration': 3.5},
-        {'title': 'Suddenly', 'artiste': ['Wande Coal', 'D\'Banj'], 'duration': 4.7},
-        {'title': 'ten ten', 'artiste': ['Wande Coal', 'D\'Banj', 'DrSid', 'Dprince'], 'duration': 4.07}
-    ]
-}
+# spotify_playlist = {
+#     'artiste': 'Mo\'hits',
+#     'album': 'Mo\'hits All Stars',
+#     'Year': 2009,
+#     'songs': [
+#         {'title': 'You bad', 'artiste': ['Wande Coal', 'D\'Banj'], 'duration': 3.5},
+#         {'title': 'Suddenly', 'artiste': ['Wande Coal', 'D\'Banj'], 'duration': 4.7},
+#         {'title': 'ten ten', 'artiste': ['Wande Coal', 'D\'Banj', 'DrSid', 'Dprince'], 'duration': 4.07}
+#     ]
+# }
 
-total_duration = 0
-for song in spotify_playlist['songs']:
-    total_duration += song['duration']
+# total_duration = 0
+# for song in spotify_playlist['songs']:
+#     total_duration += song['duration']
     
-print(total_duration)
+# print(total_duration)
+
+
+
+# Dictionary Comprehensions
+# people = {'elder bro': 'tunde', 'younger bro': 'deola', 'younger sis': 'morenike', 'younger sis': 'jibike', 'youngest sis': 'modupe'}
+
+# # greet = {value + ' hello' for value in people.values()}
+# first_cap = {key[0:1].upper() + key[1:]: value[0:1].upper() + value[1:] for key,value in people.items()}
+# print(first_cap)
+
+
+
+# Exercises
+    #1. list one will be the key, while list 2 the value
+# list1 = ["CA", "NJ", "RI"]
+# list2 = ["California", "New Jersey", "Rhode Island"]
+# answer = {list1[i]: list2[i] for i in range(0,3)}
+# print(answer)
+
+    
