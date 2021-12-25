@@ -118,4 +118,16 @@ from random import choice
 # answer = {list1[i]: list2[i] for i in range(0,3)}
 # print(answer)
 
-    
+    #2. let the first item be the key while the second the value
+# person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
+
+# answer = dict(person)
+
+# answer = {k:v for k,v in person}
+
+    #3. create a dict with the keys s alphabets with 0 as their default values
+# answer = {}.fromkeys(['a', 'e', 'i', 'o', 'u'], 0)
+
+    #3. print the ASCII number of every capital letter
+answer = {char: chr(char) for char in range(65,91)}
+print(answer)
