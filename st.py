@@ -25,14 +25,23 @@
 
 # Set
 
-states = {'abia', 'adamawa', 'akwa ibom', 'kogi', 'kano', 'kaduna', 'edo'}
+# states = {'abia', 'adamawa', 'akwa ibom', 'kogi', 'kano', 'kaduna', 'edo'}
 # states.add('lagos')
 # states.remove('abia')
 # states.discard('adamawa')
 # copied_states = states.copy()
 
 # math set
-other_states = {'bayelsa', 'kebbi', 'oyo', 'osun', 'ekiti', 'edo'}
+
+# other_states = {'bayelsa', 'kebbi', 'oyo', 'osun', 'ekiti', 'edo'}
+# convert = tuple(other_states)
 # combined = states | other_states
-intersect = states & other_states
-print(intersect)
+# intersect = states & other_states
+# print(convert)
+
+
+# set comprehension
+numbers = {1,2,4,5,5,3,6,7}
+# add_numbers = {x+x for x in numbers}
+than1 = {remove(x) for x in numbers if x > 5}
+print(than1)
