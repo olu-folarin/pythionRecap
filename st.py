@@ -15,9 +15,24 @@
 #     print(days[r])
 #     r -= 1
 
-nums = (1,2,5,6,3,6,8,2,4,5)
-for num in nums:
-    if nums.count(num) > 1:
-        print(f'{num} occured {nums.count(num)} times.')
-    else:
-        print(f'{num} No more than once.')
+# nums = (1,2,5,6,3,6,8,2,4,5)
+# for num in nums:
+#     if nums.count(num) > 1:
+#         print(f'{num} occured {nums.count(num)} times.')
+#     else:
+#         print(f'{num} No more than once.')
+
+
+# Set
+
+states = {'abia', 'adamawa', 'akwa ibom', 'kogi', 'kano', 'kaduna', 'edo'}
+# states.add('lagos')
+# states.remove('abia')
+# states.discard('adamawa')
+# copied_states = states.copy()
+
+# math set
+other_states = {'bayelsa', 'kebbi', 'oyo', 'osun', 'ekiti', 'edo'}
+# combined = states | other_states
+intersect = states & other_states
+print(intersect)
