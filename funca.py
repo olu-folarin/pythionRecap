@@ -1,4 +1,4 @@
-from random import random
+from random import Random
 
 # save any popped value to a list and while multiplying others by 7 and saving them to another list
 
@@ -20,11 +20,23 @@ from random import random
 # multipy_by_7(numbers)
 
 # coin flip program
-def coin_flip():
-    rand = random()
-    if rand > 0.5:
-        return f'{rand}: head'
-    else:
-        return f'{rand}: tail'
+# def coin_flip():
+#     rand = random()
+#     if rand > 0.5:
+#         return f'{rand}: head'
+#     else:
+#         return f'{rand}: tail'
     
-print(coin_flip())
+# print(coin_flip())
+
+
+# Exercise 1: Generating even numbers stored in a list
+
+def generate_evens():
+    even_num = [num for num in range(1,50) if num%2 == 0 and num < 50]
+    return even_num
+    
+    # or
+    # return [x for x in range(1,50) if x%2==0 and x<50]
+
+print(generate_evens())
