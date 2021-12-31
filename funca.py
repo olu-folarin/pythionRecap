@@ -32,11 +32,30 @@ from random import Random
 
 # Exercise 1: Generating even numbers stored in a list
 
-def generate_evens():
-    even_num = [num for num in range(1,50) if num%2 == 0 and num < 50]
-    return even_num
+# def generate_evens():
+#     even_num = [num for num in range(1,50) if num%2 == 0 and num < 50]
+#     return even_num
     
     # or
     # return [x for x in range(1,50) if x%2==0 and x<50]
 
-print(generate_evens())
+# print(generate_evens())
+
+
+# Default parameters: talking animals exercise
+animals = ['pig', 'dog', 'duck', 'cat']
+
+def speak(animal = 'dog'):
+    for animalia in animals:
+        if animalia == 'pig':
+            return 'oink'
+        elif animalia == 'duck':
+            return 'quack'
+        elif animalia == 'dog':
+            return 'woof'
+        elif animalia == 'cat':
+            return 'meow'
+        else:
+            return '?'
+
+print(speak(animals))
