@@ -43,19 +43,19 @@ from random import Random
 
 
 # Default parameters: talking animals exercise
-animals = ['pig', 'dog', 'duck', 'cat']
+# animals = ['pig', 'dog', 'duck', 'cat']
 
-def speak(animal = 'dog'):
-    for animalia in animals:
-        if animalia == 'pig':
-            return 'oink'
-        elif animalia == 'duck':
-            return 'quack'
-        elif animalia == 'dog':
-            return 'woof'
-        elif animalia == 'cat':
-            return 'meow'
-        else:
-            return '?'
+# def speak(animal = 'dog'):
+#     for animalia in animals:
+#         if animalia == 'pig':
+#             return 'oink'
+#         elif animalia == 'duck':
+#             return 'quack'
+#         elif animalia == 'dog':
+#             return 'woof'
+#         elif animalia == 'cat':
+#             return 'meow'
+#         else:
+#             return '?'
 
-print(speak(animals))
+# print(speak(animals))
